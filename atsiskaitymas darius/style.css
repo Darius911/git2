@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+
+
+.header-section {
+    
+   
+    background: url(img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.header-container {
+    
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+.header-title p {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.main-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-size: 0.9rem;
+}
+.header-article {
+    width: 70%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap : 2rem
+}
+.header-article h2 {
+    color: #FFF;
+    font-size: 3.6rem;
+    width: 40%;
+}
+.header-article p {
+
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 500;
+
+letter-spacing: 0.2px;
+color: #fff;
+}
+.p-width {
+    width: 20%;
+}
+.buttons-section {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+.btn-left {
+   
+    border-radius: 37px;
+    border: 1px solid #fff
+}
+.btn-left:hover,.btn-right:hover {
+    background-color: #23A6F0;
+}
+.btn-left p {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+}
+.btn-right {
+    border-radius: 37px;
+    border: 1px solid #fff
+    
+}
+
+.btn-right p {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+}
+/* flex section */
+
+.flex-section {
+    
+    background-color: #252B42 ;
+    padding-bottom: 2rem;
+}
+.flex-boxes {
+    width: 70%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+.box-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+.icon-holder {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.box-text-top {
+    color: #fff;
+    text-align: center;
+
+}
+
+.box-text-bottom {
+    color: #fff;
+    text-align: center;
+    
+
+}
+
+/* third section */
+.client-section {
+    
+    background-color: #8EC2F2;
+    
+    
+}
+.client-article {
+    width: 70%;
+    margin-inline: auto;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    
+}
+
+.cliet-header {
+    text-align: center;
+}
+.cliet-header h3 {
+    color: var(--light-text-color, #FFF);
+
+    
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; 
+    letter-spacing: 0.2px;
+}
+
+.cliet-header p {
+    color: var(--light-text-color, #FFF);
+text-align: center;
+
+
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+letter-spacing: 0.2px;
+}
+    
+.cards-container {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.cliet-card {
+    width: 30%;
+    background-color: #fff;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    
+    
+}
+.cliet-card h4 {
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.1px;
+}
+.cliet-card p {
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.2px;
+
+}
+
+.client-image-holder{
+    width: 2.5rem;;
+}
+.clien-card-img {
+    display: flex;
+    
+}
+.clien-card-img img {
+    width: 100%;
+    border-radius: 90%;
+    display: block;
+    position: relative;
+    right:40px;
+    bottom: -35px;
+}
+
+/* section 4 */
+
+.contact-us-section {
+    
+    background: url(img/2bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.contact-header {
+    width: 70%;
+    margin-inline: auto;
+    padding-top: 6rem; 
+}
+.contact-header h5 {
+    color: #252B42;
+
+    
+    
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.contact-header {
+color: #252B42;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.2px;
+width: 50%;
+}
+button {
+    background-color: #23A6F0;
+    color: #fff;
+    padding: 0.3rem;
+    border-radius: 10px;
+}
+
+.flex-contact-us {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    margin-top : 2rem
+}
+.contact-us-text h2 {
+    color:  #252B42;
+
+   
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: 0.1px;
+}
+
+.contact-us-text p {
+    color: #737373;
+
+    
+    
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.footer-section {
+    background-color: #252B42;
+   padding-bottom: 2rem;
+    display: flex;
+    
+    
+}
+
+footer {
+   
+    width: 70%;
+    margin-inline: auto;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 1rem;
+    
+}
+.social-media {
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+
+
